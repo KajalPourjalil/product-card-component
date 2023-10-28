@@ -1,8 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import './scss/style.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
+  return (
+<div className='hello-scss'>
+    Hello react with vite and sass
+    <div className='sub-text'>hello class</div>
+  </div>
+  )
+  
 
  
 }
