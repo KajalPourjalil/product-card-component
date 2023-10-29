@@ -1,15 +1,13 @@
 import './scss/style.scss'
+import Card from './components/card'
 
 function App() {
   return (
-<div className='hello-scss'>
-    Hello react with vite and sass
-    <div className='sub-text'>hello class</div>
+  <div className='background'>
+    <Card/>
   </div>
-  )
-  
 
- 
+  )
 }
 
 export default App
