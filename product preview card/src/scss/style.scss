@@ -10,20 +10,42 @@
   padding: 0px;
 }
 
-
-
 .container {
-    background-color:#ffffff;
-    height:358px;
-    width:598px;
-    border-radius:6px;
-    position: absolute;
-    left: 28%;
-    top: 30%;
+  background-color: #ffffff;
+  height: 358px;
+  width: 598px;
+  border-radius: 6px;
+  position: absolute;
+  left: 28%;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.image {
+  background-image: url("../img/desktop-design.jpg");
+  height: 358px;
+  width: 294px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.writings {
+    width: 294px;
+    height: 358px;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    color: hsl(212, 21%, 14%);
+
+}
+
+.paragraph {
+    color: hsl(228, 12%, 48%);
 }
 
 .gabrielleessenceeaudeparfum {
