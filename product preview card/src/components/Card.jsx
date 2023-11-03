@@ -11,12 +11,17 @@ class Card extends React.Component {
             PERFUME
           </h3>
           <h1 className="title">
-            Gabrielle Essence Eau De Parfum
+            Gabrielle <br/>Essence Eau <br/> De Parfum
           </h1>
           <p className="paragraph">
-            A floral, solar and voluptuous interpretation composed by Oliver
-            Polge, Perfumer-Creator for the House of CHANEL
+            A floral, solar and voluptuous interpretation composed by <br/>  Oliver
+            Polge, Perfumer-Creator <br/>  for the House of CHANEL
           </p>
+          <div className="price">
+          <span className="p1">$149.99</span>
+          <span className="p2">$169.99</span>
+          </div>
+          <div className="button">Add to cart</div>
           </div>
           </div>
         </div>
