@@ -1,11 +1,12 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format(ttf);
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf") format(ttf);
 }
 
 @font-face {
-    font-family: 'Fraunces';
-    src: url("../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf") format(ttf);
+  font-family: "Fraunces";
+  src: url("../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format(ttf);
 }
 
 * {
@@ -22,96 +23,87 @@
 
 .container {
   background-color: #ffffff;
-  height: 358px;
+  height: 420px;
   width: 598px;
   border-radius: 6px;
   position: absolute;
   left: 28%;
-  top: 30%;
+  top: 20%;
   display: flex;
   justify-content: space-between;
 }
 
 .image {
   background-image: url("../img/desktop-design.jpg");
-  height: 358px;
+  height: 420px;
   width: 294px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
 .writings {
-    width: 294px;
-    height: 358px;
-    padding-top: 30px;
-    padding-left: 20px;
+  width: 275px;
+  height: 390px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .perfume {
-    color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat';
-    font-weight: 300px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .title {
-    color: hsl(212, 21%, 14%);
-    font-family: 'Fraunces';
-    padding: 10px 10px 10px 0;
-    line-height: 29px;
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces";
+  padding: 25px 10px 10px 0;
+  line-height: 29px;
+  display: block;
 }
 
 .paragraph {
-    color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat';
-    font-size: 14px;
-    padding: 15px 0 15px 0;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding: 15px 0 15px 0;
 }
 
-.price{
-    display: flex;
-    justify-content: space-around;
-
+.price {
+  margin-top: 15px;
+  display: flex;
 }
 
 .p1 {
-    color: #3D8168;
-    font-family: 'Fraunces';
-    font-size: 28px;
-    font-weight: bold;
-
+  color: #3d8168;
+  font-family: 'Fraunces';
+  font-size: 34px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 25px;
 }
 
 .p2 {
-    color: hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-size: 13px;
+  padding-top: 11px;
+  text-decoration: line-through;
 }
 
 .button {
-    background-color: #3D8168;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 50px;
-    border-radius: 5px;
-    color: white;
-    font-family: 'Montserrat';
-    font-size: 14px;
-
-}
-
-.gabrielleessenceeaudeparfum {
-  color: #1e1e1e;
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 19px;
-  font-family: Fraunces;
-  left: 423px;
-  top: 209px;
-  width: 116px;
-  height: 69px;
-  position: absolute;
-  line-height: auto;
-  border-style: hidden;
-  outline: none;
+  background-color: #3d8168;
+  margin-left: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 25px;
 }

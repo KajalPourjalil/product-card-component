@@ -8,7 +8,7 @@ class Card extends React.Component {
           <div className="image"></div>
           <div className="writings">
           <h3 className="perfume">
-            PERFUME
+            P E R F U M E
           </h3>
           <h1 className="title">
             Gabrielle <br/>Essence Eau <br/> De Parfum
@@ -21,7 +21,7 @@ class Card extends React.Component {
           <span className="p1">$149.99</span>
           <span className="p2">$169.99</span>
           </div>
-          <div className="button">Add to cart</div>
+          <div className="button">Add to Cart</div>
           </div>
           </div>
         </div>
