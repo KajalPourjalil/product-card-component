@@ -1,9 +1,9 @@
-import './scss/style.scss'
+// import './scss/style.scss'
 import Card from './components/card'
 
 function App() {
   return (
-  <div className='background'>
+  <div>
     <Card/>
   </div>
 

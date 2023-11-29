@@ -1,10 +1,13 @@
 import React from "react";
-// import '../scss/style.scss'
+import '../scss/style.scss'
 
 class Card extends React.Component {
     render() {
-        return <div>
+        return <div className="background">
+          <div className="container">
             
+          </div>
+
         </div>
     }
 }
